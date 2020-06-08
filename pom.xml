@@ -8,6 +8,11 @@
         <module>registrationCenter</module>
         <module>configManageServer</module>
         <module>configManageClient</module>
+        <module>LoginProvider</module>
+        <module>LoginConsumer</module>
+        <module>config</module>
+        <module>loginProviderFeign</module>
+        <module>loginConsumerFeign</module>
     </modules>
 
     <parent>

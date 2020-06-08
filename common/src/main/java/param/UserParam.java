@@ -36,4 +36,13 @@ public class UserParam implements Serializable {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    @Override
+    public String toString() {
+        return "UserParam{" +
+                "userName='" + userName + '\'' +
+                ", loginName='" + loginName + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
